@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgEdu6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2238"/>
+      <stop offset="100%" stop-color="#07182B"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgEdu6)"/>
+  <rect x="8" y="8" width="584" height="344" rx="12" fill="none" stroke="#1A3A5E" stroke-width="1.5"/>
+
+  <!-- Badge -->
+  <rect x="25" y="25" width="220" height="32" rx="8" fill="#102E4C" stroke="#10BFC1" stroke-width="1"/>
+  <text x="135" y="46" fill="#10BFC1" font-family="'Cairo', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">التوعية بصحة الشرج والمستقيم</text>
+
+  <!-- Key points -->
+  <g transform="translate(50, 85)">
+    <!-- Column 1: Symptoms -->
+    <rect x="0" y="0" width="230" height="230" rx="12" fill="#07182B" stroke="#254B77" stroke-width="1.5"/>
+    <text x="115" y="35" fill="#E6B84F" font-family="'Cairo', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">أعراض تستدعي الفحص</text>
+    <text x="210" y="75" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="end">• أي نزيف شرجي (فاتح أو غامق)</text>
+    <text x="210" y="105" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="end">• ألم حاد أو مستمر أثناء الإخراج</text>
+    <text x="210" y="135" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="end">• وجود تورم أو بروز موضعي</text>
+    <text x="210" y="165" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="end">• إفرازات أو حكة مزمنة مزعجة</text>
+    <text x="115" y="205" fill="#94A3B8" font-family="'Cairo', sans-serif" font-size="10.5" text-anchor="middle">الكشف المبكر يجنب التدخلات المعقدة</text>
+
+    <!-- Column 2: Conservative vs Interventional -->
+    <rect x="270" y="0" width="230" height="230" rx="12" fill="#07182B" stroke="#10BFC1" stroke-width="1.5"/>
+    <text x="385" y="35" fill="#10BFC1" font-family="'Cairo', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">خيارات العلاج الحديثة</text>
+    <text x="480" y="75" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="end">✓ علاج تحفظي: زيادة الألياف والسوائل</text>
+    <text x="480" y="105" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="end">✓ مراهم طبية متخصصة ومسكنات</text>
+    <text x="480" y="135" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="end">✓ تقنيات الليزر والجراحة الحديثة</text>
+    <text x="480" y="165" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="end">✓ جراحات طفيفة التوغل دون ألم مبرح</text>
+    <text x="385" y="205" fill="#E6B84F" font-family="'Cairo', sans-serif" font-size="10.5" text-anchor="middle">خصوصية تامة ورعاية إكلينيكية محترمة</text>
+  </g>
+</svg>

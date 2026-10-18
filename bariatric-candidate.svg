@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgEdu2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2238"/>
+      <stop offset="100%" stop-color="#07182B"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgEdu2)"/>
+  <rect x="8" y="8" width="584" height="344" rx="12" fill="none" stroke="#1A3A5E" stroke-width="1.5"/>
+
+  <!-- Badge -->
+  <rect x="25" y="25" width="175" height="32" rx="8" fill="#102E4C" stroke="#10BFC1" stroke-width="1"/>
+  <text x="112" y="46" fill="#10BFC1" font-family="'Cairo', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">معايير ترشيح جراحة السمنة</text>
+
+  <!-- Criteria Columns / Gauges -->
+  <!-- Box 1: BMI Scale -->
+  <g transform="translate(60, 85)">
+    <rect width="220" height="230" rx="14" fill="#07182B" stroke="#254B77" stroke-width="1.5"/>
+    <text x="110" y="35" fill="#E6B84F" font-family="'Cairo', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">مؤشر كتلة الجسم (BMI)</text>
+    
+    <rect x="25" y="60" width="170" height="26" rx="6" fill="#14375A"/>
+    <text x="110" y="78" fill="#FFFFFF" font-family="'Cairo', sans-serif" font-size="11" text-anchor="middle">BMI ≥ 40 : سمنة مفرطة</text>
+
+    <rect x="25" y="98" width="170" height="42" rx="6" fill="#102E4C" stroke="#10BFC1" stroke-width="1"/>
+    <text x="110" y="118" fill="#10BFC1" font-family="'Cairo', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">BMI 35 - 39.9</text>
+    <text x="110" y="132" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="9.5" text-anchor="middle">+ أمراض مصاحبة كالسكر والضغط</text>
+
+    <text x="110" y="180" fill="#94A3B8" font-family="'Cairo', sans-serif" font-size="10.5" text-anchor="middle">تقييم فردي دقيق وفق التوجيهات</text>
+    <text x="110" y="200" fill="#94A3B8" font-family="'Cairo', sans-serif" font-size="10.5" text-anchor="middle">الطبية الإكلينيكية المعتمدة</text>
+  </g>
+
+  <!-- Box 2: Medical Assessment Protocol -->
+  <g transform="translate(320, 85)">
+    <rect width="220" height="230" rx="14" fill="#07182B" stroke="#254B77" stroke-width="1.5"/>
+    <text x="110" y="35" fill="#10BFC1" font-family="'Cairo', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">التقييم الشامل للجاهزية</text>
+
+    <!-- Checklist items -->
+    <g transform="translate(25, 65)">
+      <circle cx="10" cy="10" r="7" fill="#10BFC1"/>
+      <path d="M7 10 L9 12 L13 8" stroke="#07182B" stroke-width="1.8" fill="none"/>
+      <text x="25" y="14" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11">فحوصات الغدد والدم الشاملة</text>
+    </g>
+    <g transform="translate(25, 105)">
+      <circle cx="10" cy="10" r="7" fill="#10BFC1"/>
+      <path d="M7 10 L9 12 L13 8" stroke="#07182B" stroke-width="1.8" fill="none"/>
+      <text x="25" y="14" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11">تقييم القلب والجهاز التنفسي</text>
+    </g>
+    <g transform="translate(25, 145)">
+      <circle cx="10" cy="10" r="7" fill="#10BFC1"/>
+      <path d="M7 10 L9 12 L13 8" stroke="#07182B" stroke-width="1.8" fill="none"/>
+      <text x="25" y="14" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11">الاستعداد للالتزام بالنظام الغذائي</text>
+    </g>
+    <g transform="translate(25, 185)">
+      <circle cx="10" cy="10" r="7" fill="#E6B84F"/>
+      <path d="M7 10 L9 12 L13 8" stroke="#07182B" stroke-width="1.8" fill="none"/>
+      <text x="25" y="14" fill="#E6B84F" font-family="'Cairo', sans-serif" font-size="11">المتابعة الدورية بعد الجراحة</text>
+    </g>
+  </g>
+</svg>

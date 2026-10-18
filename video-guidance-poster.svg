@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGal3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14375A"/>
+      <stop offset="100%" stop-color="#07182B"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" rx="16" fill="url(#bgGal3)"/>
+  <rect x="8" y="8" width="484" height="334" rx="12" fill="none" stroke="#10BFC1" stroke-width="1.5"/>
+
+  <!-- Play Circle -->
+  <circle cx="250" cy="150" r="44" fill="#07182B" stroke="#10BFC1" stroke-width="3"/>
+  <polygon points="242,130 268,150 242,170" fill="#10BFC1"/>
+
+  <rect x="140" y="215" width="220" height="32" rx="8" fill="#07182B" stroke="#E6B84F" stroke-width="1"/>
+  <text x="250" y="236" fill="#E6B84F" font-family="'Cairo', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">فيديو توعوي قيد الإنتاج والمونتاج</text>
+
+  <text x="250" y="275" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="middle">شرح إكلينيكي مفصل بصوت د. أحمد جودة ناجح</text>
+  <text x="250" y="295" fill="#94A3B8" font-family="'Cairo', sans-serif" font-size="10" text-anchor="middle">سيتم نشر الفيديو فور اعتماده ومراجعته رسميًا</text>
+</svg>

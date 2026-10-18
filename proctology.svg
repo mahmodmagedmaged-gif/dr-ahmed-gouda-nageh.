@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="20" fill="#0B2238" stroke="#10BFC1" stroke-width="2"/>
+  <circle cx="50" cy="50" r="30" fill="#07182B" stroke="#254B77" stroke-width="1.5"/>
+  <!-- Gentle protective shielding & anatomical pelvic outline -->
+  <path d="M50 30 C38 30 34 42 34 50 C34 62 46 70 50 72 C54 70 66 62 66 50 C66 42 62 30 50 30 Z" fill="none" stroke="#10BFC1" stroke-width="3"/>
+  <circle cx="50" cy="50" r="5" fill="#E6B84F"/>
+</svg>

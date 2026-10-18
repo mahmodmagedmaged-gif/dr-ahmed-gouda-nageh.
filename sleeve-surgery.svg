@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgEdu1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2238"/>
+      <stop offset="100%" stop-color="#07182B"/>
+    </linearGradient>
+    <linearGradient id="stomachGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB088"/>
+      <stop offset="100%" stop-color="#E27343"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgEdu1)"/>
+  <rect x="8" y="8" width="584" height="344" rx="12" fill="none" stroke="#1A3A5E" stroke-width="1.5"/>
+  
+  <!-- Esophagus -->
+  <path d="M290 40 L310 40 L310 90 L290 90 Z" fill="#E27343"/>
+  
+  <!-- Resected Part (dashed) -->
+  <path d="M310 90 C380 90 440 140 440 210 C440 280 370 300 310 270 Z" fill="rgba(226, 115, 67, 0.2)" stroke="#E6B84F" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="390" y="195" fill="#E6B84F" font-family="'Cairo', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">الجزء المستأصل</text>
+  <text x="390" y="215" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="11" text-anchor="middle">(حوالي 75-80%)</text>
+  
+  <!-- New Stomach Sleeve Tube -->
+  <path d="M290 90 C290 150 280 230 300 280 L310 270 C310 210 310 140 310 90 Z" fill="url(#stomachGrad)" stroke="#10BFC1" stroke-width="3"/>
+  <text x="240" y="190" fill="#10BFC1" font-family="'Cairo', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">الأنبوب المعدي الجديد</text>
+  <text x="240" y="210" fill="#94A3B8" font-family="'Cairo', sans-serif" font-size="11" text-anchor="middle">(مسار الطعام الطبيعي)</text>
+  
+  <!-- Duodenum / Pylorus preserved -->
+  <path d="M300 280 L290 320 L310 320 L310 270 Z" fill="#E27343"/>
+  
+  <!-- Badge -->
+  <rect x="25" y="25" width="165" height="32" rx="8" fill="#102E4C" stroke="#10BFC1" stroke-width="1"/>
+  <text x="107" y="46" fill="#10BFC1" font-family="'Cairo', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">مخطط تكميم المعدة</text>
+</svg>

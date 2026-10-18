@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="goldPure" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0BE"/>
+      <stop offset="50%" stop-color="#E6B84F"/>
+      <stop offset="100%" stop-color="#B8861B"/>
+    </linearGradient>
+  </defs>
+  <!-- Subtle Medical Cross Accent at top center -->
+  <g transform="translate(100, 36)" opacity="0.95">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="url(#goldPure)" stroke-width="2"/>
+    <path d="M-5 0 H5 M0 -5 V5" stroke="url(#goldPure)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Letter 'A' (Gold) -->
+  <path d="M60 148 L88 58 L116 148 M68 122 L108 122" 
+        stroke="url(#goldPure)" 
+        stroke-width="11" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+
+  <!-- Letter 'G' (Gold) -->
+  <path d="M152 78 C136 58 108 62 98 80 C84 105 84 122 102 142 C120 156 148 146 148 120 L124 120" 
+        stroke="url(#goldPure)" 
+        stroke-width="11" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+
+  <circle cx="88" cy="58" r="6" fill="url(#goldPure)"/>
+  <circle cx="124" cy="120" r="5" fill="url(#goldPure)"/>
+</svg>

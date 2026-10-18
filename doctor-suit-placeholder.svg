@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2238"/>
+      <stop offset="100%" stop-color="#07182B"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D7C4A5"/>
+      <stop offset="50%" stop-color="#C5B191"/>
+      <stop offset="100%" stop-color="#AB9A7C"/>
+    </linearGradient>
+    <linearGradient id="tieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10BFC1"/>
+      <stop offset="100%" stop-color="#098485"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE5A2"/>
+      <stop offset="100%" stop-color="#E6B84F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" rx="24" fill="url(#bgGrad)"/>
+  <rect x="8" y="8" width="384" height="484" rx="20" fill="none" stroke="#10BFC1" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.4"/>
+
+  <!-- Doctor Silhouette in Beige Suit -->
+  <!-- Head & Shoulders outline -->
+  <circle cx="200" cy="155" r="58" fill="#14375A" stroke="url(#goldAccent)" stroke-width="2"/>
+  <circle cx="200" cy="155" r="50" fill="#0B2238"/>
+  
+  <!-- Medical / Suit Collar & Tie -->
+  <path d="M120 380 C120 280 160 230 200 230 C240 230 280 280 280 380 Z" fill="url(#suitGrad)"/>
+  <!-- White Shirt V -->
+  <polygon points="175,230 225,230 200,310" fill="#FFFFFF"/>
+  <!-- Teal Tie -->
+  <polygon points="195,235 205,235 207,290 200,305 193,290" fill="url(#tieGrad)"/>
+  <!-- Suit Lapels -->
+  <polygon points="160,230 185,230 200,340 155,380" fill="#B9A586" opacity="0.7"/>
+  <polygon points="240,230 215,230 200,340 245,380" fill="#B9A586" opacity="0.7"/>
+
+  <!-- Informative Badge / Notice -->
+  <rect x="40" y="390" width="320" height="74" rx="14" fill="#07182B" stroke="url(#goldAccent)" stroke-width="1.5"/>
+  <text x="200" y="420" text-anchor="middle" fill="#E6B84F" font-family="'Cairo', sans-serif" font-size="15" font-weight="bold">الصورة الرسمية (البدلة)</text>
+  <text x="200" y="445" text-anchor="middle" fill="#CBD5E1" font-family="'Cairo', sans-serif" font-size="12">قيد الاعتماد والإضافة فور استلام الصورة</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="20" fill="#0B2238" stroke="#10BFC1" stroke-width="2"/>
+  <circle cx="50" cy="50" r="30" fill="#07182B" stroke="#E6B84F" stroke-width="1.5"/>
+  <!-- Scalpel / precision surgical instrument line -->
+  <line x1="30" y1="70" x2="70" y2="30" stroke="#10BFC1" stroke-width="4" stroke-linecap="round"/>
+  <line x1="30" y1="30" x2="70" y2="70" stroke="#E6B84F" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="50" cy="50" r="5" fill="#FFFFFF"/>
+</svg>
